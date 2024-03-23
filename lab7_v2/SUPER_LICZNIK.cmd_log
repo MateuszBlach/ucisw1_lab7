@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.xst" -ofn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-vq100-5 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.xst" -ofn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s50-vq100-5 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s50-vq100-5 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.xst" -ofn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+par -w -intstyle ise -ol high -t 1 SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ncd SUPER_LICZNIK.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+par -w -intstyle ise -ol high -t 1 SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ncd SUPER_LICZNIK.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+par -w -intstyle ise -ol high -t 1 SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ncd SUPER_LICZNIK.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SUPER_LICZNIK.twx SUPER_LICZNIK.ncd -o SUPER_LICZNIK.twr SUPER_LICZNIK.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f SUPER_LICZNIK.ut SUPER_LICZNIK.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.xst" -ofn "C:/Users/lab/lab7_v2/SUPER_LICZNIK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 SUPER_LICZNIK.ngc SUPER_LICZNIK.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ngd SUPER_LICZNIK.pcf 
+par -w -intstyle ise -ol high -t 1 SUPER_LICZNIK_map.ncd SUPER_LICZNIK.ncd SUPER_LICZNIK.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SUPER_LICZNIK.twx SUPER_LICZNIK.ncd -o SUPER_LICZNIK.twr SUPER_LICZNIK.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f SUPER_LICZNIK.ut SUPER_LICZNIK.ncd 

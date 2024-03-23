@@ -1,0 +1,10 @@
+EN display NULL C:/Users/lab/lab7_v2/DISPLAY.vhf sub00/vhpl04 1702973699
+AR display behavioral C:/Users/lab/lab7_v2/DISPLAY.vhf sub00/vhpl05 1702973700
+EN freq_div NULL C:/Users/lab/lab7_v2/FREQ_DIV.vhd sub00/vhpl06 1702973701
+AR licznik behavioral C:/Users/lab/lab7_v2/LICZNIK.vhd sub00/vhpl01 1702973696
+AR freq_div behavioral C:/Users/lab/lab7_v2/FREQ_DIV.vhd sub00/vhpl07 1702973702
+EN receiver NULL C:/Users/lab/lab7_v2/RECEIVER.vhf sub00/vhpl02 1702973697
+EN licznik NULL C:/Users/lab/lab7_v2/LICZNIK.vhd sub00/vhpl00 1702973695
+EN super_licznik NULL C:/Users/lab/lab7_v2/SUPER_LICZNIK.vhd sub00/vhpl08 1702973703
+AR receiver behavioral C:/Users/lab/lab7_v2/RECEIVER.vhf sub00/vhpl03 1702973698
+AR super_licznik structural C:/Users/lab/lab7_v2/SUPER_LICZNIK.vhd sub00/vhpl09 1702973704

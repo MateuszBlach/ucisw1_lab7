@@ -1,0 +1,5 @@
+vhdl work "RECEIVER.vhf"
+vhdl work "LICZNIK.vhd"
+vhdl work "FREQ_DIV.vhd"
+vhdl work "DISPLAY.vhf"
+vhdl work "SUPER_LICZNIK.vhd"
